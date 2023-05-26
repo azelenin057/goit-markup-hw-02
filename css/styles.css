@@ -1,5 +1,6 @@
 :root {
   --active-color: #404BBF;
+  --title-color: #2e2f42;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 
 .hero-start {
   background-color: #2E2F42;
+  text-align: center;
 }
 .hero-start-title {
   font-weight: 700;
@@ -24,7 +26,7 @@ body {
 
 }
 .hero-start-butoon {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -39,14 +41,15 @@ body {
   background-color: #404BBF;
 }
 
+.hero-start-butoon:focus{
+  background-color: #404BBF;
+}
 /**----------------INDEX-Benefits---------------**/
 .benefits {
 }
 .benefits-title {
 }
-.benefits-list {
-  list-style-type: none;
-}
+
 .benefits-list-item {
 }
 .benefits-item-title {
@@ -54,6 +57,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .benefits-item-text {
   font-size: 16px;
@@ -68,10 +72,10 @@ body {
 .product-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
-}
-.product-list {
-  list-style-type: none;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-color);
 }
 .product-list-item {
 }
@@ -81,16 +85,21 @@ body {
 /**----------------TEAM---------------**/
 
 .team {
+  background-color: #F4F4FD;
 }
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-color);
 }
-.team-list {
-  list-style-type: none;
+.team-list{
+  background-color: #FFFFFF;
 }
+
 .team-list-img {
 }
 .team-list-name {
@@ -98,6 +107,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 .team-list-text {
   font-size: 16px;
@@ -221,23 +231,23 @@ body {
 
 
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #F4F4FD;
+  color: #4d5ae5;
 }
 
 footer{
   background-color:#2E2F42 ;
 }
 .footer-logo span {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 .footer-text {
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
