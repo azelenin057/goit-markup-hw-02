@@ -189,12 +189,12 @@ body {
 
 .hero-menu-button:hover {
   color: #ffffff;
-  background-color: #404BBF
+  background-color: #404bbf;
   flex: none;
 }
 
 .hero-menu-button:focus {
-  background-color: #404BBF
+  background-color: #404bbf;
   color: #ffffff;
   flex: none;
 }
