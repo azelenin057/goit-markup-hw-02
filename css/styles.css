@@ -9,6 +9,103 @@ body {
 .link {
   text-decoration: none;
 }
+/**----------------INDEX-------------**/
+
+.hero-start {
+  background-color: #2E2F42;
+}
+.hero-start-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+
+}
+.hero-start-butoon {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #4D5AE5;
+  cursor: pointer;
+}
+
+.hero-start-butoon:hover{
+  background-color: #404BBF;
+}
+
+/**----------------INDEX-Benefits---------------**/
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+  list-style-type: none;
+}
+.benefits-list-item {
+}
+.benefits-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.benefits-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**---------------INDEX-PRODUCT--------------**/
+.product {
+}
+.product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.product-list {
+  list-style-type: none;
+}
+.product-list-item {
+}
+.product-list-img {
+}
+
+/**----------------TEAM---------------**/
+
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.team-list {
+  list-style-type: none;
+}
+.team-list-img {
+}
+.team-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 
 /**----------------HEADER-------------**/
 .header-logo {
